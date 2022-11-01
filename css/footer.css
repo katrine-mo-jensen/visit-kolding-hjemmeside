@@ -1,10 +1,9 @@
 
-
-
-#follow-us {
-    background-color: #326273;
-    display: flex;
+#follow-us{
+    max-width: 1080px;
+    margin: 0 auto;
 }
+
 
 #follow-us h2{
     color: #FFFFFF;
@@ -19,10 +18,10 @@
     gap: 50px;
 }
 
-
-
 #links {
     background-color: #5C9EAD;
+    max-width: 1080px;
+    margin: 0 auto;
     
 }
 
@@ -33,9 +32,9 @@
     line-height: 52px;    
 }
 
-
-
 #policy-terms {
     background-color: #DFDFDF;
+    margin: 0 auto;
+    max-width: 1080px;
     display: flex;
 }

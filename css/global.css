@@ -13,31 +13,21 @@ html {
 }
 .full-width {
   width: 100%;
-  display: flex;
-  justify-content: center;
 }
 .full-width-red {
   width: 100%;
-  display: flex;
-  justify-content: center;
   background-color: #ab3428;
 }
 .full-width-light-blue {
   width: 100%;
-  display: flex;
-  justify-content: center;
   background-color: #5c9ead;
 }
 .full-width-dark-blue {
   width: 100%;
-  display: flex;
-  justify-content: center;
   background-color: #326273;
 }
 .full-width-grey {
   width: 100%;
-  display: flex;
-  justify-content: center;
   background-color: #dfdfdf;
 }
 h1{
