@@ -1,7 +1,8 @@
 nav {
   display: flex;
   justify-content: space-between;
-  width: 1080px;
+  max-width: 1080px;
+  margin: 0 auto;
   padding-top: 15px;
   align-items: center;
 }
