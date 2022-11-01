@@ -1,3 +1,4 @@
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
 *,
 *::before,
 *::after {
@@ -8,4 +9,10 @@
  
 html {
     font-size: 62.5%;
+}
+h1{
+   font-size: 4.5rem; 
+}
+p{
+    font-size: 1.8rem;
 }
