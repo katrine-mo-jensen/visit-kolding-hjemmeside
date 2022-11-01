@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 1080px;
+  padding-top: 15px;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  gap: 25px;
+}
+nav li {
+  list-style-type: none;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+nav img {
+  width: 80%;
+}
+@media screen and (max-width: 768px) {
+  nav img {
+    display: none;
+  }
+}
