@@ -1,0 +1,41 @@
+
+
+
+#follow-us {
+    background-color: #326273;
+    display: flex;
+}
+
+#follow-us h2{
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 52px;
+}
+
+#follow-us ul {
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+
+
+
+#links {
+    background-color: #5C9EAD;
+    
+}
+
+#links h4 {
+    color: #3D3D3D;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 52px;    
+}
+
+
+
+#policy-terms {
+    background-color: #DFDFDF;
+    display: flex;
+}
