@@ -94,11 +94,13 @@
   gap: 40px;
 }
 
+footer a{
+  color: #737373;
+  text-decoration: none;
+}
+
 
 @media screen and (max-width: 768px) {
-    body{
-        background-color: sandybrown;
-    }
     #follow-us{
         padding: 20px;
     }
