@@ -1,0 +1,20 @@
+@import url("global.css");
+@import url("nav.css");
+@import url("header.css");
+@import url("footer.css");
+
+main {
+  display: flex;
+  justify-content: center;
+}
+section {
+  width: 1080px;
+}
+
+img {
+  width: 1080px;
+}
+span {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
