@@ -12,6 +12,7 @@
   line-height: 52px;
   padding-right: 150px;
   font-family: "Noto Sans", sans-serif;
+  padding: 100px 100px 100px 0px;
 }
 
 #follow-us ul {
@@ -21,11 +22,16 @@
   align-items: center;
 }
 
+#follow-us img {
+    width: 80%;
+}
+
 #footer-links {
   max-width: 1080px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 #footer-links h4 {
@@ -33,6 +39,7 @@
   font-weight: bold;
   line-height: 42px;
   font-family: "Noto Sans", sans-serif;
+  padding-bottom: 10px;
 }
 
 #footer-links p {
@@ -48,7 +55,7 @@
   font-weight: 500;
   line-height: 26px;
   font-family: "Noto Sans", sans-serif;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .links {
@@ -56,15 +63,15 @@
   justify-content: center;
   text-align: center;
   align-items: center;
-  gap: 60px;
+  gap: 80px;
+  padding: 40px 0px 40px 0px;
 }
 
 .links section ul li {
   list-style-type: none;
   row-gap: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
-
 
 #terms {
   max-width: 1080px;
@@ -79,14 +86,18 @@
   font-weight: bold;
   font-size: 13px;
   font-family: "Noto Sans", sans-serif;
+  padding: 20px 0px 20px 0px;
 }
-
 
 #terms section {
   display: flex;
   gap: 40px;
 }
+
+
 @media screen and (max-width: 768px) {
+   
+
 }
 @media screen and (max-width: 600px) {
 }
