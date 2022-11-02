@@ -21,8 +21,85 @@ nav a {
 nav img {
   width: 80%;
 }
-@media screen and (max-width: 768px) {
-  nav img {
-    display: none;
-  }
+
+.burger div {
+width: 25px;
+height: 5px;
+background-color: gray;
+margin: 2px;
+cursor: pointer;
 }
+
+
+@media screen and (min-width: 768px) {
+.burger {
+  display: none;
+}
+}
+
+@media screen and (max-width: 768px) {
+  body{
+    overflow-x: hidden;
+  }
+  ul{
+        width: 50%;
+        position: absolute;
+        right: 0px;
+        height: 97vh;
+        top: 8vh;
+        background-color: royalblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+  }
+
+  li a{
+    color: white;
+    font-weight: bold;
+  }
+
+  #menu li {
+    opacity: 0%;
+  }
+
+  .burger {
+    padding-right: 20px;
+  }
+
+  .nav-active {
+    transform: translateX(0%);
+  }
+
+  }
+
+  /*600px media query*/
+  @media screen and (max-width: 600px) {
+    body{
+      overflow-x: hidden;
+    }
+
+    main {
+      display: none;
+    }
+
+    .full-width-light-blue {
+      display: none;
+    }
+
+    ul{
+          width: 100%;
+          position: absolute;
+          right: 0px;
+          height: 97vh;
+          top: 8vh;
+          background-color: royalblue;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding-top: 70%;
+          transition: transform 0.5s ease-in;
+    }
+  }

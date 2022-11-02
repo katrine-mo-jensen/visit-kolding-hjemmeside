@@ -68,6 +68,16 @@ main header h1{
         padding: 5rem;
     }
 }
+
+@media screen and (max-width: 768px){
+    main, p {
+        top: -16.6rem;
+        width: 60%;
+        left: -5%;
+        padding: 5.7rem 3.3rem;
+    }
+  }
+
 @media (max-width: 650px) {
     main header h1{
         padding: 5rem 3rem;
