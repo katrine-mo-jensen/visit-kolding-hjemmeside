@@ -67,7 +67,9 @@
   max-width: 1080px;
   margin: 0 auto;
   padding: 8rem 0;
-
+}
+#opcoming-events h2{
+  margin-bottom: 5rem;
 }
 #events{ 
   display: flex;
@@ -143,9 +145,55 @@
   }
 }
 /*    ^^         Upcoming events      ^^    */
+#explore-kolding{
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 6rem 0;
+}
+#explore-kolding article{
+  width: 40%;
+  display: grid;
+  place-content: center;
+}
+#explore-kolding section{
+  width: 60%;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+#explore-kolding section a{
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+#explore-kolding section img{
+  width: 100%;
+}
+@media (max-width: 1080px) {
+  #explore-kolding{
+    padding: 6rem 3rem;
+  }
+}
+@media (max-width: 800px) {
+  #explore-kolding{
+    padding: 6rem 3rem;
+    flex-direction: column;
+  }
+  #explore-kolding article, #explore-kolding section{
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  #explore-kolding section{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/*    ^^         Explore kolding      ^^    */
 #maps{
   width: 100%
 }
-#maps iframe{
-  width: 100%;
-}
+/*    ^^         maps      ^^    */
