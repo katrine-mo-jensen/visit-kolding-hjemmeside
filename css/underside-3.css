@@ -27,3 +27,12 @@ h4 {
   font-weight: 700;
   padding-bottom: 2rem;
 }
+@media screen and (max-width: 768px) {
+  section {
+    max-width: 100%;
+    padding: 5%;
+  }
+  img {
+    width: 100%;
+  }
+}
