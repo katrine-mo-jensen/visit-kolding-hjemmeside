@@ -142,3 +142,10 @@
     }
   }
 }
+/*    ^^         Upcoming events      ^^    */
+#maps{
+  width: 100%
+}
+#maps iframe{
+  width: 100%;
+}
