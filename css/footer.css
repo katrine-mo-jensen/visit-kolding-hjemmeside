@@ -48,6 +48,7 @@
   font-weight: 500;
   line-height: 26px;
   font-family: "Noto Sans", sans-serif;
+  padding-bottom: 10px;
 }
 
 .links {
@@ -61,6 +62,7 @@
 .links section ul li {
   list-style-type: none;
   row-gap: 20px;
+  padding-bottom: 10px;
 }
 
 .links a {
