@@ -1,0 +1,60 @@
+@import url(nav.css);
+@import url(header.css);
+@import url(footer.css);
+
+#top article{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    gap: 6rem;
+    padding: 9.3rem 0 6rem;
+}
+.max-width{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem;
+    padding: 8.1rem 0 27rem;
+}
+.max-width article{
+    width: 70%;
+}
+.max-width aside{
+    width: 30%;
+}
+.max-width img{
+    width: 100%;
+}
+.max-width p{
+    margin-bottom: 2rem;
+}
+.max-width article img{
+    margin-bottom: 2rem;
+    aspect-ratio: 360/101;
+    object-fit: cover;
+}
+.max-width aside img{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+@media (max-width: 1080px){
+    .max-width aside{
+        padding-right: 5rem;
+    }
+    .max-width article{
+        padding-left: 5rem;
+    }
+}
+@media (max-width: 650px) {
+    #top article{
+        flex-direction: column;
+        padding: 9rem 5rem;
+    }
+    .max-width aside{
+        display: none;
+    }
+    .max-width article{
+        width: 100%;
+        padding: 5rem;
+    }
+}
