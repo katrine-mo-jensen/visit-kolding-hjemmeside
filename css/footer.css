@@ -12,7 +12,7 @@
   line-height: 52px;
   padding-right: 150px;
   font-family: "Noto Sans", sans-serif;
-  padding: 100px 100px 100px 0px;
+  padding: 40px 100px 40px 0px;
 }
 
 #follow-us ul {
@@ -23,7 +23,7 @@
 }
 
 #follow-us img {
-    width: 80%;
+    width: 70%;
 }
 
 #footer-links {
@@ -64,7 +64,7 @@
   text-align: center;
   align-items: center;
   gap: 80px;
-  padding: 40px 0px 40px 0px;
+  padding: 30px 0px 30px 0px;
 }
 
 .links section ul li {
