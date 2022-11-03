@@ -69,9 +69,13 @@
 }
 
 .links section ul li {
-  list-style-type: none;
-  row-gap: 20px;
+  list-style-type: none; 
   padding-bottom: 20px;
+}
+
+.links section ul li a {
+  text-decoration: none;
+  color: #3D3D3D;
 }
 
 #terms {
