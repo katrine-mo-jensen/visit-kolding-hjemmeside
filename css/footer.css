@@ -12,13 +12,13 @@
   font-weight: bold;
   line-height: 52px;
   font-family: "Noto Sans", sans-serif;
-  
+  flex-basis: 400px;
 }
 
 #follow-us ul {
   display: flex;
   list-style-type: none;
-  gap: 80px;
+  gap: 40px;
   align-items: center;
 }
 
@@ -30,8 +30,13 @@
   max-width: 1080px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
+  height: 338px;
+}
+
+#footer-links section {
+  flex-basis: 600px;
 }
 
 #footer-links h4 {
@@ -63,14 +68,18 @@
   justify-content: center;
   text-align: center;
   align-items: center;
-  gap: 80px;
-  padding: 30px 0px 30px 0px;
+  gap: 60px;
+  padding: 30px 0px;
 }
 
 .links section ul li {
-  list-style-type: none;
-  row-gap: 20px;
+  list-style-type: none; 
   padding-bottom: 20px;
+}
+
+.links section ul li a {
+  text-decoration: none;
+  color: #3D3D3D;
 }
 
 #terms {
@@ -78,6 +87,8 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 80px;
 }
 
 #terms p {
@@ -86,7 +97,6 @@
   font-weight: bold;
   font-size: 13px;
   font-family: "Noto Sans", sans-serif;
-  padding: 20px 0px 20px 0px;
 }
 
 #terms section {
