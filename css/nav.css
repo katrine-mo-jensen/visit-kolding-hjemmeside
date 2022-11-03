@@ -9,6 +9,9 @@ nav {
   padding: 2rem;
   background-color: #FAFAFA;
 }
+.nav-full{
+  background-color: #FAFAFA;
+}
 
 nav ul {
   display: flex;
