@@ -19,6 +19,7 @@ Header article div {
   display: grid;
   place-content: center;
   margin: 0 auto;
+  z-index: 1;
 }
 Header article p {
   max-width: 97rem;
