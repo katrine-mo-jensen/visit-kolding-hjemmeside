@@ -8,7 +8,6 @@ Header img {
   height: 60%;
 }
 Header article {
-  /* position: relative; */
   background-color: #fff;
   height: 40%;
 }
@@ -26,7 +25,8 @@ Header article p {
 }
 Header article h1 {
   position: absolute;
-  top: -16.6rem;
+  transform:  translateY(-100%);
+  top: 0;
   background-color: #fff;
   width: 70%;
   left: -20%;
@@ -34,7 +34,7 @@ Header article h1 {
 }
 @media (max-width: 1700px) {
   Header article h1 {
-    top: -16.6rem;
+    top: 0;
     width: 70%;
     left: -10%;
     padding: 5.7rem 3.3rem;
@@ -42,7 +42,7 @@ Header article h1 {
 }
 @media (max-width: 1450px) {
   Header article h1 {
-    top: -16.6rem;
+    top: 0;
     width: 70%;
     left: -5%;
     padding: 5.7rem 3.3rem;
@@ -50,7 +50,7 @@ Header article h1 {
 }
 @media (max-width: 1300px) {
   Header article h1 {
-    top: -16.6rem;
+    top: 0;
     width: 70%;
     left: -0%;
     padding: 5.7rem 3.3rem;
@@ -58,7 +58,7 @@ Header article h1 {
 }
 @media (max-width: 1150px) {
   Header article h1 {
-    top: -16.6rem;
+    top: 0;
     width: 60%;
     left: 10%;
     padding: 5.7rem 3.3rem;
@@ -73,7 +73,7 @@ Header article h1 {
 @media (max-width: 758px) {
   main header h1 {
     padding: 5rem 3rem;
-    top: -20.5rem;
+    top: 0;
     width: 35%;
   }
 }
@@ -81,13 +81,13 @@ Header article h1 {
 @media (max-width: 650px) {
   Header article h1 {
     padding: 5rem 3rem;
-    top: -20.5rem;
+    top: 0;
   }
 }
 @media (max-width: 319px) {
   Header article h1 {
     font-size: 3.5rem !important;
-    top: -18.1rem;
+    top: 0;
   }
   Header article {
     height: 60%;
