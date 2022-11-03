@@ -75,15 +75,6 @@ main header h1 {
     top: -20.5rem;
     width: 35%;
   }
-  position: absolute;
-  top: -16.6rem;
-  background-color: #fff;
-  width: 70%;
-  left: -20%;
-  padding: 5.7rem 3.3rem;
-  main p {
-    padding: 10rem;
-  }
 }
 
 @media (max-width: 650px) {
