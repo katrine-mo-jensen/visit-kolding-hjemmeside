@@ -113,12 +113,11 @@
         padding: 20px;
     }
     #follow-us img{
-        width: 70%;
+        width: 50%;
     }
     #follow-us h2{
         font-size: 15px;
     }
-
 }
 @media screen and (max-width: 600px) {
 }
