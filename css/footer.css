@@ -32,6 +32,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 338px;
 }
 
 #footer-links h4 {
@@ -78,6 +79,8 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 80px;
 }
 
 #terms p {
@@ -86,7 +89,6 @@
   font-weight: bold;
   font-size: 13px;
   font-family: "Noto Sans", sans-serif;
-  padding: 20px 0px 20px 0px;
 }
 
 #terms section {
