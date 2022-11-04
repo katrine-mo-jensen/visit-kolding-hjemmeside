@@ -1,49 +1,52 @@
-@import url(nav.css);
-@import url(header.css);
-@import url(footer.css);
+@import url("global.css");
+@import url("nav.css");
+@import url("header.css");
+@import url("footer.css");
 
-#content .wrapper{
-    max-width: 108rem;
-    margin: 0 auto;
-    padding: 4.4rem 0;
-    display: flex;
-    flex-direction: column;
-    gap: 10rem;
+#content .wrapper {
+  max-width: 108rem;
+  margin: 0 auto;
+  padding: 4.4rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10rem;
 }
-#content .wrapper .container{
-    display: flex;
-    gap: 5rem;
+#content .wrapper .container {
+  display: flex;
+  gap: 5rem;
 }
-#content .container img, #content .container .text{
-    width: 50%;
+#content .container img,
+#content .container .text {
+  width: 50%;
 }
-#content .container img{
-    object-fit: cover;
+#content .container img {
+  object-fit: cover;
 }
-#content .container .text{
-    padding: 2rem;
+#content .container .text {
+  padding: 2rem;
 }
-#content .text p{
-    margin-bottom: 1rem;
+#content .text p {
+  margin-bottom: 1rem;
 }
-#content .text h3{
-    margin-bottom: 1rem;
+#content .text h3 {
+  margin-bottom: 1rem;
 }
 @media (max-width: 1080px) {
-    #content{
-        padding: 5rem;
-    }
+  #content {
+    padding: 5rem;
+  }
 }
 @media (max-width: 800px) {
-    #content .container{
-        flex-direction: column-reverse;
-    }
-    #content .container img, #content .container .text{
-        width: 100%;
-    }
+  #content .container {
+    flex-direction: column-reverse;
+  }
+  #content .container img,
+  #content .container .text {
+    width: 100%;
+  }
 }
 @media (min-width: 801px) {
-    #content .wrapper .container:nth-child(even){
-        flex-direction: row-reverse;
-    }
+  #content .wrapper .container:nth-child(even) {
+    flex-direction: row-reverse;
+  }
 }

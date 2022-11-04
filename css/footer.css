@@ -1,3 +1,7 @@
+#full-width-dark-blue {
+  display: flex;
+  justify-content: center;
+}
 #follow-us {
   max-width: 1080px;
   margin: 0 auto;
@@ -23,7 +27,7 @@
 }
 
 #follow-us img {
-    width: 70%;
+  width: 70%;
 }
 
 #footer-links {
@@ -73,13 +77,13 @@
 }
 
 .links section ul li {
-  list-style-type: none; 
+  list-style-type: none;
   padding-bottom: 20px;
 }
 
 .links section ul li a {
   text-decoration: none;
-  color: #3D3D3D;
+  color: #3d3d3d;
 }
 
 #terms {
@@ -104,22 +108,21 @@
   gap: 40px;
 }
 
-footer a{
+footer a {
   color: #737373;
   text-decoration: none;
 }
-
-
 @media screen and (max-width: 768px) {
-    #follow-us{
-        padding: 20px;
-    }
-    #follow-us img{
-        width: 50%;
-    }
-    #follow-us h2{
-        font-size: 15px;
-    }
+  #follow-us {
+    display: flex;
+    padding: 20px;
+  }
+  #footer-links {
+    padding: 20px;
+  }
+}
+#terms {
+  padding: 20px;
 }
 @media screen and (max-width: 600px) {
 }
