@@ -113,12 +113,28 @@ footer a {
   text-decoration: none;
 }
 @media screen and (max-width: 768px) {
+  
   #follow-us {
     display: flex;
     padding: 20px;
+    flex-direction: column;
+    height: unset;
+    flex-basis: unset;
+    gap: 5rem;
+  }
+  #follow-us h2{
+    flex-basis: unset;
   }
   #footer-links {
     padding: 20px;
+    flex-direction: column;
+    height: unset;
+  }
+  #footer-links section{
+    flex-basis: unset;
+  }
+  #footer-links h4, #footer-links p{
+    text-align: center;
   }
 }
 #terms {
