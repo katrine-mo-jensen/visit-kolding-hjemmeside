@@ -7,10 +7,10 @@ nav {
   align-items: center;
   position: relative;
   padding: 2rem;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
-.nav-full{
-  background-color: #FAFAFA;
+.nav-full {
+  background-color: #fafafa;
 }
 
 nav ul {
@@ -104,9 +104,6 @@ nav img {
 @media screen and (max-width: 600px) {
   body {
     overflow-x: hidden;
-  }
-  main {
-    display: none;
   }
 
   .nav-links {

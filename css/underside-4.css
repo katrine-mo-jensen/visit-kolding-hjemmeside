@@ -15,7 +15,7 @@ main {
   grid-template-rows: 1fr 1fr;
 }
 
-div {
+#underside-4-grid div {
   padding: 1em;
 }
 
@@ -93,5 +93,11 @@ h4 {
   #art {
     grid-column: 1 / 2;
     grid-row: 3 / 4;
+  }
+  #underside-4-grid {
+    width: 1080px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
   }
 }
