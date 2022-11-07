@@ -8,7 +8,7 @@ main {
   justify-content: center;
 }
 
-section {
+#underside-4-grid {
   width: 1080px;
   display: grid;
   grid-template-columns: 1fr 1fr;

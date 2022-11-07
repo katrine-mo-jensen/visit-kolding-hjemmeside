@@ -9,12 +9,12 @@
   gap: 6rem;
   padding: 9.3rem 0 6rem;
 }
-.max-width {
-  max-width: 1080px;
-  margin: 0 auto;
-  display: flex;
-  gap: 2rem;
-  padding: 8.1rem 0 27rem;
+.max-width{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem;
+    padding: 8.1rem 0 11rem;
 }
 .max-width article {
   width: 70%;
