@@ -140,5 +140,8 @@ footer a {
 #terms {
   padding: 20px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
+  .text p:last-child{
+    display: none;
+  }
 }
