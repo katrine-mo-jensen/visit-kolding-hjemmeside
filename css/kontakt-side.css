@@ -8,7 +8,7 @@
     margin: 0 auto;
     padding:5rem 0 18rem 0;
     display: flex;
-    gap: 5rem;
+    gap: 15rem;
 }
 #contact-page article, #contact-page aside{
     width: 50%;
@@ -42,13 +42,13 @@ grid-column: span 2;
 #contact-page aside{
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: start;
     gap: 3rem;
 }
 #contact-page aside p{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 2rem;
 }
 #contact-page h3{
