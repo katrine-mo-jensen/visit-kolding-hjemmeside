@@ -71,7 +71,6 @@
   display: flex;
   justify-content: center;
   text-align: center;
-  /* align-items: center; */
   gap: 60px;
   padding: 30px 0px;
 }
@@ -136,10 +135,11 @@ footer a {
   #footer-links h4, #footer-links p{
     text-align: center;
   }
-}
-#terms {
+  #terms {
   padding: 20px;
 }
+}
+
 @media screen and (max-width: 500px) {
   .text p:last-child{
     display: none;
